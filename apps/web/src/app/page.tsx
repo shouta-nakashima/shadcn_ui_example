@@ -1,13 +1,12 @@
-import Image from 'next/image'
-
-import {Button} from '../components/ui/button'
-import { BiAdjust } from "react-icons/bi"
-
+import NotesList from '../components/NotesList'
 
 export default function Home() {
   return (
     <main>
-      <div className='m-10 text-center'> Hello World 🚀</div>
+      <div className="m-10 text-center">
+        <p>Hello World 🚀</p>
+        <NotesList />
+      </div>
     </main>
   )
 }
