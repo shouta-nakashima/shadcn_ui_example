@@ -10,7 +10,7 @@ const NavBar = () => {
         <Link href="/blogs" className="rounded bg-gray-700 px-3 py-2 text-white hover:bg-gray-500">
           Blogs
         </Link>
-        <Link href="/streaming-sr" className="rounded bg-gray-700 px-3 py-2 text-white hover:bg-gray-500">
+        <Link href="/streaming_sr" className="rounded bg-gray-700 px-3 py-2 text-white hover:bg-gray-500">
           Streaming SR
         </Link>
         <Link href="/auth" className="rounded bg-gray-700 px-3 py-2 text-white hover:bg-gray-500">
