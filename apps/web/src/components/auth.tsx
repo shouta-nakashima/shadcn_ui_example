@@ -26,7 +26,7 @@ const Auth = () => {
       if (error) {
         alert(error.message)
       } else {
-        router.push('/')
+        router.push('/auth/todo_crud')
       }
     } else {
       const { error } = await supabase.auth.signUp({
