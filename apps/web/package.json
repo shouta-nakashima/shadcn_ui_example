@@ -31,7 +31,8 @@
     "tailwindcss": "3.3.2",
     "tailwindcss-animate": "^1.0.6",
     "ui": "*",
-    "zustand": "4.3.8"
+    "zustand": "4.3.8",
+    "shadcn_ui": "*"
   },
   "devDependencies": {
     "@types/node": "20.4.0",
